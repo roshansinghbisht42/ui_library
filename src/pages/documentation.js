@@ -166,7 +166,7 @@ export default Button;`}
 npm install
 
 # Start dev server
-npm run dev`}
+npm start`}
           </pre>
 
         <h3>Deploying (e.g., with Vercel)</h3>
