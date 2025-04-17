@@ -40,6 +40,14 @@ function App() {
         <h2 className="text-lg font-bold mb-2">Buttons</h2>     
         <button variant="primary" className="btn-primary">Primary</button>
         <Button variant="secondary" className="btn-secondary">Secondary</Button>
+        <button
+  onClick={() => window.location.href = '/documentation.html'}
+  className="btn btn-primary m-2"
+>
+  View Documentation
+</button>
+
+
 
       </section>
 
