@@ -51,3 +51,35 @@
   }
   
   
+  .documentation {
+    font-family: sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .documentation h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .documentation h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .documentation code {
+    background: #f1f1f1;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .documentation section {
+    margin-bottom: 2rem;
+  }
+  
+  .documentation footer {
+    margin-top: 3rem;
+  }
+  
