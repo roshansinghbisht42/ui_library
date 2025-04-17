@@ -17,7 +17,7 @@ function Home() {
    <Button variant="secondary" onClick={toggleDark}>Toggle Dark Mode</Button>
 
      <header className="text-center p-4">
-        <h1 className="text-xl font-bold">UI Library</h1>
+        <h1 className="text-xl font-bold">UI Library By Debug Demons</h1>
         <p className="text-base">Showcasing grid, utilities and components</p>
       </header>
 
