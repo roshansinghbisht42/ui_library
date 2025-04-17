@@ -7,14 +7,14 @@ const Documentation = () => {
       <header className="doc-header">
         <h1>UI Library Docs</h1>
         <nav>
-          <a href="#grid">Grid</a>
-          <a href="#margin">Margin</a>
+     <a href="#grid">Grid</a>
+    <a href="#margin">Margin</a>
           <a href="#typography">Typography</a>
           <a href="#padding">Padding</a>
-          <a href="#size">Size</a>
-          <a href="#styles">Buttons</a>
-          <a href="#background">Background</a>
-          <a href="#darkmode">Dark Mode</a>
+    <a href="#size">Size</a>
+          <a href="#styles">Buttons</a>  
+                 <a href="#background">Background</a>
+<a href="#darkmode">Dark Mode</a>
           <a href="#react">React</a>
         </nav>
       </header>
@@ -22,8 +22,7 @@ const Documentation = () => {
       <main>
         <section id="grid">
           <h2>Grid System</h2>
-          <p>
-            Our layout uses a 12-column grid built with CSS Grid. You can control how wide a column spans by adding a class like <code>.col-span-4</code>.
+       <p>         Our layout uses a 12-column grid built with CSS Grid. You can control how wide a column spans by adding a class like <code>.col-span-4</code>.
           </p>
           <pre>
 {`.container {
@@ -40,7 +39,7 @@ const Documentation = () => {
 
         <section id="margin">
           <h2>Margin Utilities</h2>
-          <p>Use these utility classes to add spacing around elements.</p>
+     <p>Use these utility classes to add spacing around elements.</p>
           <pre>
 {`.margin-small {
   margin: 8px;
@@ -53,8 +52,8 @@ const Documentation = () => {
         </section>
 
         <section id="typography">
-          <h2>Typography</h2>
-          <p>Basic text formatting like size and weight can be applied with these classes:</p>
+       <h2>Typography</h2>
+       <p>Basic text formatting like size and weight can be applied with these classes:</p>
           <pre>
 {`.text-small {
   font-size: 14px;
@@ -71,9 +70,9 @@ const Documentation = () => {
         </section>
 
         <section id="padding">
-          <h2>Padding</h2>
-          <p>Padding adds space inside elements. These are our standard padding classes:</p>
-          <pre>
+    <h2>Padding</h2>
+       <p>Padding adds space inside elements. These are our standard padding classes:</p>
+       <pre>
 {`.padding-small {
   padding: 10px;
 }
@@ -82,12 +81,12 @@ const Documentation = () => {
   padding: 40px;
 }`}
           </pre>
-        </section>
+  </section>
 
-        <section id="size">
-          <h2>Responsive Behavior</h2>
+      <section id="size">
+  <h2>Responsive Behavior</h2>
           <p>The grid adjusts based on screen size using media queries. Here's a quick example:</p>
-          <pre>
+       <pre>
 {`@media (max-width: 1024px) {
   .col-span-4 {
     grid-column: span 6;
@@ -96,9 +95,9 @@ const Documentation = () => {
           </pre>
         </section>
 
-        <section id="styles">
+     <section id="styles">
           <h2>Button Styles</h2>
-          <p>We keep buttons simple but flexible. Here's the core style:</p>
+         <p>We keep buttons simple but flexible. Here's the core style:</p>
           <pre>
 {`.button {
   padding: 10px 20px;
@@ -109,11 +108,11 @@ const Documentation = () => {
   cursor: pointer;
 }`}
           </pre>
-        </section>
+     </section>
 
         <section id="background">
           <h2>Background Utilities</h2>
-          <p>Change background colors using these classes:</p>
+        <p>Change background colors using these classes:</p>
           <pre>
 {`.background-primary {
   background-color: #e91e63;
@@ -127,7 +126,7 @@ const Documentation = () => {
         </section>
 
         <section id="darkmode">
-          <h2>Dark Mode Support</h2>
+       <h2>Dark Mode Support</h2>
           <p>Dark mode is toggled by adding a <code>dark-mode</code> class to the <code>&lt;body&gt;</code>.</p>
           <pre>
 {`body.dark-mode {
@@ -137,9 +136,8 @@ const Documentation = () => {
           </pre>
         </section>
 
-        <section id="react">
-          <h2>Using with React</h2>
-          <p>This library works great in React. You can wrap utility classes inside components for reuse.</p>
+        <section id="react">     <h2>Using with React</h2>
+   <p>This library works great in React. You can wrap utility classes inside components for reuse.</p>
 
           <h3>Directory Structure Example</h3>
           <pre>
@@ -171,14 +169,14 @@ npm install
 npm run dev`}
           </pre>
 
-          <h3>Deploying (e.g., with Vercel)</h3>
-          <p>You can deploy the project easily with platforms like Vercel or Netlify. Just connect your GitHub repo and push!</p>
-        </section>
+        <h3>Deploying (e.g., with Vercel)</h3>
+        <p>You can deploy the project easily with platforms like Vercel or Netlify. Just connect your GitHub repo and push!</p>
+    </section>
       </main>
 
-      <footer>
-        <p>© 2025 UI Library</p>
-      </footer>
+   <footer>
+    <p>2025 UI Library By Debug  Demons©</p>
+  </footer>
     </div>
   );
 };
