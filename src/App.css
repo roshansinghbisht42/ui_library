@@ -1,0 +1,53 @@
+@import "./styles/base/padding.css";
+@import "./styles/base/typography.css";
+@import "./styles/base/margin.css";
+@import "./styles/layout/grid.css";
+/* @import "./styles/themes/colors.css"; */
+@import "./styles/utility/Buttons.css";
+@import "./styles/utility/card.css";
+
+@import "./styles/themes/darkmode.css";
+
+ 
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+
+}
+
+:root {
+  --primary: #4f46e5;
+  --secondary: #ec4899;
+  --success: #10b981;
+  --danger: #ef4444;
+  --text: #111827;
+  --background: #ffffff;
+  --card-bg: #ffffff;
+  --radius: 1rem;
+
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  --transition: all 0.3s ease;
+}
+
+/* background */
+.bg-primary { 
+  background-color: 
+  var(--primary);
+
+   color: #111827;
+   }
+
+
+  .bg-secondary {
+     background-color: var(--secondary); 
+     color: #fff; 
+    }
+
+
+  .bg-success {
+     background-color: var(--success); 
+    color: #fff;
+  
+  }
+  
+  
