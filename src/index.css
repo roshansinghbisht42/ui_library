@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Required Leaflet styles */
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

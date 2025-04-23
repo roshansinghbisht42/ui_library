@@ -1,0 +1,232 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #f5f5f5; /* Light background by default */
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light background by default */
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dark-mode .dashboard-header {
+    background-color: #333;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .dark-mode-toggle {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #575757;
+  }
+  
+  .dashboard-content {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  section:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  #almora-traffic span, #bhowali-traffic span {
+    font-weight: bold;
+    color: #ff9800;
+  }
+  
+  .map-placeholder {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .map-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #map {
+    width: 100%;
+    height: 400px; /* Increased height for better visibility */
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .add-route {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-route:hover {
+    background-color: #45a049;
+  }
+  
+  .route-predictor {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .route-predictor input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .route-result {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .dark-mode .route-result {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Remove the black background from the sections */
+  .upcoming-events, .map-placeholder, .traffic-status {
+    background-color: transparent;  /* Remove the default background */
+    box-shadow: none;  /* Remove the shadow */
+  }
+  
+  .dark-mode .upcoming-events, .dark-mode .map-placeholder, .dark-mode .traffic-status {
+    background-color: #333;  /* Change to a darker color in dark mode */
+  }
+  
+  .upcoming-events a, .map-placeholder a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .upcoming-events h2, .map-placeholder h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  /* Form Styles for Map */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .form-container select, .form-container button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-content {
+      padding: 20px;
+    }
+  
+    .map-placeholder, .upcoming-events, .traffic-status {
+      margin-bottom: 20px;
+    }
+  
+    /* Adjusting the height of the map on small screens */
+    #map {
+      height: 300px;
+    }
+  
+    .form-container {
+      gap: 8px;
+    }
+  
+    .dashboard-header h1 {
+      font-size: 20px;
+    }
+  }
+  
